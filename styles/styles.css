@@ -47,3 +47,8 @@ h4, span {
 p, li {
     font-family: 'Quicksand', sans-serif;
 }
+
+figcaption {
+    font-family: 'Pacifico', cursive;
+    font-size: 0.8rem;
+}

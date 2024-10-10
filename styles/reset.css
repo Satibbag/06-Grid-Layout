@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header, nav, main, footer {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
