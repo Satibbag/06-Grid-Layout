@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+* {
+/*Primary Colors*/
+    Disneyland Blue: #1E489A
+    Castle Gold: #F7C948
+    Fantasyland Pink: #FFB6C1
+
+/*Secondary Colors*/
+    Adventureland Green: #3C824E
+    Main Street Red: #D23232
+    Pixie Dust Silver: #C0C0C0
+
+/*Accent Colors*/
+    Nighttime Fireworks Purple: #6A0DAD
+    Tinkerbell Green: #8FBC8F
+}
+
+
+
+h1 {
+    font-family: 'Walter Turncoat', sans-serif;
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.6rem;
+}
+
+h4, span {
+    font-family: 'Bangers', cursive;
+    font-weight: lighter;
+}
+
+p, li {
+    font-family: 'Quicksand', sans-serif;
+}
