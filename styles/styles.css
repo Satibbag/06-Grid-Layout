@@ -1,29 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-
-* {
-/*Primary Colors*/
-    Disneyland Blue: #1E489A
-    Castle Gold: #F7C948
-    Fantasyland Pink: #FFB6C1
-
-/*Secondary Colors*/
-    Adventureland Green: #3C824E
-    Main Street Red: #D23232
-    Pixie Dust Silver: #C0C0C0
-
-/*Accent Colors*/
-    Nighttime Fireworks Purple: #6A0DAD
-    Tinkerbell Green: #8FBC8F
+body {
+    background-color: #C0C0C0;
 }
 
-
+main > section {
+    border-radius: 15px;
+    margin: 20px;
+    padding: 1.5rem;
+}
 
 h1 {
     font-family: 'Walter Turncoat', sans-serif;
@@ -32,6 +22,7 @@ h1 {
 
 h2 {
     font-family: 'Luckiest Guy', cursive;
+    text-align: center;
 }
 
 h3 {
@@ -42,13 +33,84 @@ h3 {
 h4, span {
     font-family: 'Bangers', cursive;
     font-weight: lighter;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 p, li {
     font-family: 'Quicksand', sans-serif;
+    margin: 5px 15px 10px 40px;
+}
+.attractions li span, .tickets li span, .faqs li span {
+    margin-left: 0;
 }
 
 figcaption {
     font-family: 'Pacifico', cursive;
+    text-align: center;
     font-size: 0.8rem;
+}
+
+header {
+    background-color: #1E489A;
+    color: #F7C948;
+    text-align: center;
+    padding: 2px 15px 15px;
+}
+
+nav {
+    background-color: #FFB6C1;
+    color: #1E489A;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 20px 7px;
+    margin-bottom: 0;
+}
+nav li {
+    background-color: #F7C948;
+    width: min-content;
+    padding: 8px;
+    margin: auto auto 13px;
+    border-radius: 15px;
+    border: 3px solid #1E489A;
+}
+nav li:hover {
+    background-color: #1E489A;
+    color: #F7C948;
+    border-color: #F7C948;
+}
+
+section:nth-child(even) {
+    background-color: rgba(30, 72, 154, 0.8);
+}
+section:nth-child(odd) {
+    background-color: #1E489A;
+}
+
+.overview {
+    color: #F7C948;
+}
+.overview img {
+    width: 100%;
+}
+
+#bayou {
+    border-left: 2px solid #F7C948;
+    padding-left: 20px;
+}
+
+.tips {
+    color: #F7C948;
+}
+
+.faqs {
+    color: #F7C948;
+}
+
+footer {
+    background-color: #1E489A;
+    text-align: center;
+    color: #F7C948;
+    padding: 8px;
 }

@@ -1,0 +1,65 @@
+nav {
+    grid-area: nav;
+}
+.overview {
+    grid-area: overview;
+}
+.featured {
+    grid-area: featured;
+}
+
+#tiki figure {
+    grid-area: tiki-fig;
+}
+#tiki p {
+    grid-area: tiki-text;
+    margin-left: 0;
+}
+#bayou figure {
+    grid-area: bayou-fig;
+}
+#bayou p {
+    grid-area: bayou-text;
+    margin-left: 0;
+}
+#dining {
+    list-style-type: none;
+    margin: 20px;
+    display: grid;
+    grid-template-areas:
+        "tiki-fig bayou-text"
+        "tiki-text bayou-fig";
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (min-width: 431px) and (max-width: 1024px) {
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li {
+        width: max-content;
+    }
+}
+
+@media (min-width: 1025px) {
+    main {
+        display: grid;
+        grid-template-areas:
+            "overview tips"
+            "overview faqs"
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li {
+        width: max-content;
+    }
+
+    .faqs {
+        f
+    }
+}
